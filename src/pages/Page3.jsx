@@ -4,7 +4,7 @@ function Page3() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="relative">
-        <img className="w-full" src="src/assets/macbook.webp" alt="macbook image" />
+        <img className="w-full" src="/images/macbook.webp" alt="macbook image" />
         <div className="absolute top-1/3 left-1/4 bg-white p-16 rounded-xl">
           <ul className="text-[1.75vw] font-[font6]">
             <li className="text-black">Responsive Design 💻</li>

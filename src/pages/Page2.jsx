@@ -68,29 +68,13 @@ const Page2 = () => {
       <div className="flex w-full items-center justify-center gap-[10vw] mt-10">
         <img
           className="w-[4vw]"
-          src="src\assets\svg\wordpress.svg"
+          src="/svgs/wordpress.svg"
           alt="wordpress logo"
         />
-        <img
-          className="w-[4vw]"
-          src="src\assets\svg\shopify.svg"
-          alt="shopify logo"
-        />
-        <img
-          className="w-[4vw]"
-          src="src\assets\svg\react.svg"
-          alt="react logo"
-        />
-        <img
-          className="w-[4vw]"
-          src="src\assets\svg\redux.svg"
-          alt="redux logo"
-        />
-        <img
-          className="w-[4vw]"
-          src="src\assets\svg\mongodb.svg"
-          alt="mongoDB logo"
-        />
+        <img className="w-[4vw]" src="/svgs/shopify.svg" alt="shopify logo" />
+        <img className="w-[4vw]" src="/svgs/react.svg" alt="react logo" />
+        <img className="w-[4vw]" src="/svgs/redux.svg" alt="redux logo" />
+        <img className="w-[4vw]" src="/svgs/mongodb.svg" alt="mongoDB logo" />
       </div>
       <div className="h-[2px] w-1/3 relative left-1/2 -translate-x-1/2 mt-32 bg-black"></div>
     </div>
