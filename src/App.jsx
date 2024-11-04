@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <SmoothScroll />
-      <div id="main">
+      <div id="main" className="relative">
         <Header />
         <Page1 />
         <Page2 />
