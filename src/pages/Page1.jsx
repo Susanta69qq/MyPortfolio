@@ -39,11 +39,12 @@ function Page1() {
       onMouseMove={(e) => {
         mouseMoving(e);
       }}
-      className="h-screen bg-white p-6"
+      className="h-screen max-sm:h-[70vh] bg-white p-6 max-sm:p-0"
     >
       <div
         id="page1-in"
-        className="h-full w-full p-20 bg-[url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover rounded-[40px] shadow-xl shadow-gray-700"
+        className="h-full w-full p-20 max-sm:py-[20vw] max-sm:px-[3vw] bg-[url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] 
+        bg-cover rounded-[40px] max-sm:rounded-[0] shadow-xl shadow-gray-700 max-sm:flex max-sm:justify-center"
       >
         <TiltText refer={tiltRef} />
         <Page1Bottom />

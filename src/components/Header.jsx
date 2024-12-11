@@ -9,7 +9,7 @@ function Header() {
   };
   return (
     <div>
-      <div className="fixed w-full flex items-center justify-end z-[100] p-20">
+      <div className="fixed w-full flex items-center justify-end z-[100] p-20 max-sm:p-10">
         <button
           onClick={() => handleClick()}
           className="bg-black w-[120px] px-4 py-2 rounded-full border-2 hover:bg-gray-500 transition-all duration-300 z-[100]"
