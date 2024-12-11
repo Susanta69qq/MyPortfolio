@@ -45,6 +45,7 @@ const Page4 = () => {
   return (
     <div className="min-h-screen p-10 bg-white">
       <div className="section4 h-full w-full bg-black rounded-[50px]">
+        {/* Studio Lux */}
         <div className="px-[2vw] py-[5vw]">
           <a href="https://portfolioproject001.netlify.app/" target="_blank">
             <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
@@ -59,6 +60,8 @@ const Page4 = () => {
           </div>
           <div className="border w-full h-[1px] bg-gray-400"></div>
         </div>
+
+        {/* Le Flair Studios */}
         <div className="px-[2vw]">
           <a href="https://portfolioproject002.netlify.app/" target="_blank">
             <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
@@ -73,6 +76,8 @@ const Page4 = () => {
           </div>
           <div className="border w-full h-[1px] bg-gray-400"></div>
         </div>
+
+        {/* Watch House */}
         <div className="px-[2vw] py-[5vw]">
           <a href="https://portfolioproject003.netlify.app/" target="_blank">
             <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
@@ -87,6 +92,8 @@ const Page4 = () => {
           </div>
           <div className="border w-full h-[1px] bg-gray-400"></div>
         </div>
+
+        {/* Inertia Web Tech */}
         <div className="px-[2vw] pb-[5vw]">
           <a href="https://inertiawebtech.netlify.app/" target="_blank">
             <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
@@ -98,6 +105,22 @@ const Page4 = () => {
               IT BUSINESS / Personal Brand
             </h3>
             <h3 className="text-white font-[font3] text-[1.2vw]">04</h3>
+          </div>
+          <div className="border w-full h-[1px] bg-gray-400"></div>
+        </div>
+
+        {/* Rahasya Fragrances */}
+        <div className="px-[2vw] pb-[5vw]">
+          <a href="https://rahasyafragrances.netlify.app/" target="_blank">
+            <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
+              RAHASYA FRAGRANCES
+            </h1>
+          </a>
+          <div className="flex items-center justify-between">
+            <h3 className="text-gray-400 font-[font3] text-[1.2vw]">
+              Premium Perfume Brand / Personal Brand
+            </h3>
+            <h3 className="text-white font-[font3] text-[1.2vw]">05</h3>
           </div>
           <div className="border w-full h-[1px] bg-gray-400"></div>
         </div>
