@@ -26,7 +26,7 @@ function Page1Bottom() {
 
 
   return (
-    <div className="absolute bottom-0 left-0 w-full p-10 sm:p-16 md:p-24 max-sm:bottom-[25vw]">
+    <div className="absolute bottom-0 left-0 w-full p-10 sm:p-16 md:p-24 max-sm:bottom-1/3">
       <div>
         <h2 className="text-2xl text-[#ff0000] font-[font2] max-sm:text-lg max-sm:text-center max-sm:leading-5">
           WEB DEVELOPMENT | MOBILE APP DEVELOPMENT | BRAND DESIGN

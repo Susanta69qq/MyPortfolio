@@ -39,7 +39,7 @@ function Page1() {
       onMouseMove={(e) => {
         mouseMoving(e);
       }}
-      className="h-screen max-sm:h-[70vh] bg-white p-6 max-sm:p-0"
+      className="h-screen max-sm:h-screen bg-white p-6 max-sm:p-0"
     >
       <div
         id="page1-in"
