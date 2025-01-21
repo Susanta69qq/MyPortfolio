@@ -124,6 +124,38 @@ const Page4 = () => {
           </div>
           <div className="border w-full h-[1px] bg-gray-400"></div>
         </div>
+
+        {/* ZippyTaxi */}
+        <div className="px-[2vw] pb-[5vw]">
+          <a href="https://zippytaxi.netlify.app/" target="_blank">
+            <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
+              ZIPPY TAXI
+            </h1>
+          </a>
+          <div className="flex items-center justify-between">
+            <h3 className="text-gray-400 font-[font3] text-[1.2vw]">
+              Taxi Service / Prototype
+            </h3>
+            <h3 className="text-white font-[font3] text-[1.2vw]">06</h3>
+          </div>
+          <div className="border w-full h-[1px] bg-gray-400"></div>
+        </div>
+
+        {/* AICA ai agent */}
+        <div className="px-[2vw] pb-[5vw]">
+          <a href="https://aicaproject.netlify.app/" target="_blank">
+            <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
+              AICA AI AGENT
+            </h1>
+          </a>
+          <div className="flex items-center justify-between">
+            <h3 className="text-gray-400 font-[font3] text-[1.2vw]">
+              AI Chatbot & Project Manager / Prototype
+            </h3>
+            <h3 className="text-white font-[font3] text-[1.2vw]">07</h3>
+          </div>
+          <div className="border w-full h-[1px] bg-gray-400"></div>
+        </div>
       </div>
     </div>
   );
