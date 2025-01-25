@@ -5,8 +5,8 @@ import Page2 from "./pages/Page2";
 
 import SmoothScroll from "../SmoothScroll.jsx";
 import Page3 from "./pages/Page3.jsx";
-import Page4 from "./pages/Page4.jsx";
 import Page5 from "./pages/Page5.jsx";
+import Projects from "./pages/Projects.jsx";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Page1 />
         <Page2 />
         <Page3 />
-        <Page4 />
+        <Projects />
         <Page5 />
       </div>
     </>

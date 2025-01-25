@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import React from "react";
 
-const Page4 = () => {
+const Projects = () => {
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(() => {
     gsap.from(".rotateHead", {
@@ -156,9 +156,25 @@ const Page4 = () => {
           </div>
           <div className="border w-full h-[1px] bg-gray-400"></div>
         </div>
+
+        {/* Ai Trip Planner */}
+        <div className="px-[2vw] pb-[5vw]">
+          <a href="https://airtripplanner.netlify.app/" target="_blank">
+            <h1 className="rotateHead text-white font-[font1] text-[12vw] leading-[10vw] cursor-pointer">
+              AI TRIP PLANNER
+            </h1>
+          </a>
+          <div className="flex items-center justify-between">
+            <h3 className="text-gray-400 font-[font3] text-[1.2vw]">
+              AI Trip Planner / Prototype
+            </h3>
+            <h3 className="text-white font-[font3] text-[1.2vw]">08</h3>
+          </div>
+          <div className="border w-full h-[1px] bg-gray-400"></div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Page4;
+export default Projects;
